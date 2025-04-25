@@ -4,6 +4,7 @@ import Brake_Hospital from "../components/Brake_Hospital";
 import About_Us from "../components/About_Us";
 import Instagram from "../components/Instagram";
 import Job_section from "../components/Job_section";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         <About_Us />
         <Instagram />
         <Job_section />
+        <Footer />
       </div>
     </div>
   );
