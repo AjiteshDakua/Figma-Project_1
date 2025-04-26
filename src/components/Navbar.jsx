@@ -12,9 +12,12 @@ const Navbar = () => {
         <div className="flex items-center space-x-4">
           <img src={assets.vector_53} alt="Vector" className="h-8" />
           <div className="hidden sm:flex space-x-4 text-sm sm:text-base font-semibold">
-            <p className="cursor-pointer hover:text-red-500 text-[#84151F]">
+            <a
+              href="/"
+              className="cursor-pointer hover:text-red-500 text-[#84151F]"
+            >
               Startseite
-            </p>
+            </a>
             <p className="cursor-pointer hover:text-blue-500 text-white">
               For Patients
             </p>
@@ -26,7 +29,9 @@ const Navbar = () => {
 
         {/* Center Logo */}
         <div>
-          <img src={assets.logo} alt="Logo" className="h-10" />
+          <a href="/">
+            <img src={assets.logo} alt="Logo" className="h-10" />
+          </a>
         </div>
 
         {/* Right Section */}
@@ -60,7 +65,9 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="md:hidden px-4 pb-4 space-y-3 text-white font-medium animate-fade-in-down">
-          <p className="hover:text-red-500">Startseite</p>
+          <a href="/" className="hover:text-red-500">
+            Startseite
+          </a>
           <p className="hover:text-blue-500">For Patients</p>
           <p className="hover:text-blue-500">For Referrers</p>
           <a href="/applicants" className="block hover:text-blue-600">
@@ -72,7 +79,7 @@ const Navbar = () => {
           <a href="/about-us" className="block hover:text-blue-600">
             About Us
           </a>
-          <button className="w-full mt-2 px-4 py-2 bg-white/80 backdrop-blur-[20px] rounded-[15px] text-black font-semibold hover:bg-white hover:shadow-md transition">
+          <button className="w-full mt-2 px-4 py-2 bg-blue-200 backdrop-blur-[20px] rounded-[15px] text-black font-semibold n">
             Contact
           </button>
         </div>

@@ -13,7 +13,7 @@ const Instagram = () => {
         </p>
       </div>
 
-      <div className="max-w-7xl mx-auto bg-white shadow-2xl rounded-3xl p-4 sm:p-6 md:p-10 border border-blue-100">
+      <div className="max-w-7xl mx-auto bg-white  rounded-3xl p-4 sm:p-6 md:p-10 border border-blue-100">
         {/* Instagram Widget Script */}
         <script
           src="https://static.elfsight.com/platform/platform.js"

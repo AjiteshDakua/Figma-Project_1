@@ -99,7 +99,7 @@ const Footer = () => {
       </div>
 
       {/* Copyright */}
-      <div className="mt-10 pt-4 border-t border-blue-800 text-center text-sm text-gray-400">
+      <div className="mt-10 pt-4 border-t border-blue-500 text-center text-sm text-gray-200">
         &copy; {new Date().getFullYear()}{" "}
         <span className="font-medium">Brake Hospital</span>. All rights
         reserved.

@@ -25,7 +25,7 @@ import Administrative_3 from "./Administrative_3.png";
 import other_field_1 from "./other_field_1.png";
 import other_field_2 from "./other_field_2.png";
 import other_field_3 from "./other_field_3.png";
-
+import Contact from "./Contact.png";
 
 export const assets = {
   hero_logo: hero,
@@ -42,7 +42,7 @@ export const assets = {
   About_us_1: About_us_1,
   About_us_2: About_us_2,
   capsul: capsul,
-  first_aid_box:first_aid_box,
+  first_aid_box: first_aid_box,
   Nursing_1: nursing_1,
   Nursing_2: nursing_2,
   Nursing_3: nursing_3,
@@ -55,11 +55,10 @@ export const assets = {
   other_field_1: other_field_1,
   other_field_2: other_field_2,
   other_field_3: other_field_3,
-
-
+  Contact: Contact,
 };
 
- const data = [
+const data = [
   {
     date: "21-Apr-2025",
     description:
@@ -108,10 +107,9 @@ export const nursingJobs = [
   },
 ];
 
-
 export const medicalJobs = [
   {
-    image: "medical_service_1", 
+    image: "medical_service_1",
     title: "Smooth Checkups",
     description:
       "Offers safe and professional care for patients with full dedication and service.",
@@ -190,8 +188,4 @@ export const jobOffersOtherAreas = [
   },
 ];
 
-
-
-
 export default data;
-

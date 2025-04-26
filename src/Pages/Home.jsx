@@ -5,6 +5,8 @@ import About_Us from "../components/About_Us";
 import Instagram from "../components/Instagram";
 import Job_section from "../components/Job_section";
 import Footer from "../components/Footer";
+import Map from "../components/Map";
+import Contact from "../components/Contact";
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
         <About_Us />
         <Instagram />
         <Job_section />
+        <Map />
+        <Contact />
         <Footer />
       </div>
     </div>

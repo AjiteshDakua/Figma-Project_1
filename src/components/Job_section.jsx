@@ -9,7 +9,7 @@ import {
 
 const Job_section = () => {
   return (
-    <div className="w-full px-4 sm:px-8 md:px-16 lg:px-20 py-12 bg-gradient-to-b from-blue-50 to-white">
+    <div className="w-full px-4 sm:px-8 md:px-16 lg:px-20 py-10 bg-gradient-to-b from-blue-50 to-white">
       <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center text-gray-900 mb-12">
         Job Advertisements
       </h1>
